@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/components/Login.tsx">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/components/Login.tsx" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/Signup.tsx">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/components/Signup.tsx" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/lib/assets/emailIcon.svg">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/lib/assets/emailIcon.svg" />
+              <option name="originalContent" value="&lt;svg&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#10;        width=&quot;24&quot;&#10;        height=&quot;24&quot;&#10;        viewBox=&quot;0 0 24 24&quot;&#10;        fill=&quot;none&quot;&#10;        stroke=&quot;currentColor&quot;&#10;        stroke-width=&quot;2&quot;&#10;        stroke-linecap=&quot;round&quot;&#10;        stroke-linejoin=&quot;round&quot;&#10;        class=&quot;lucide lucide-mail absolute left-3 top-3 h-4 w-4 text-gray-400&quot;&#10;        aria-hidden=&quot;true&quot;&#10;&gt;&#10;    &lt;path d=&quot;m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7&quot;&gt;&lt;/path&gt;&lt;rect&#10;        x=&quot;2&quot;&#10;        y=&quot;4&quot;&#10;        width=&quot;20&quot;&#10;        height=&quot;16&quot;&#10;        rx=&quot;2&quot;&gt;&lt;/rect&gt;&#10;&lt;/svg&#10;&gt;" />
+              <option name="updatedContent" value="&lt;svg&#10;        xmlns=&quot;http://www.w3.org/2000/svg&quot;&#10;        width=&quot;24&quot;&#10;        height=&quot;24&quot;&#10;        viewBox=&quot;0 0 24 24&quot;&#10;        fill=&quot;none&quot;&#10;        stroke=&quot;currentColor&quot;&#10;        stroke-width=&quot;2&quot;&#10;        stroke-linecap=&quot;round&quot;&#10;        stroke-linejoin=&quot;round&quot;&#10;        class=&quot;h-6 w-6 text-gray-400&quot;&#10;        aria-hidden=&quot;true&quot;&#10;&gt;&#10;    &lt;path d=&quot;m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7&quot;&gt;&lt;/path&gt;&lt;rect&#10;        x=&quot;2&quot;&#10;        y=&quot;4&quot;&#10;        width=&quot;20&quot;&#10;        height=&quot;16&quot;&#10;        rx=&quot;2&quot;&gt;&lt;/rect&gt;&#10;&lt;/svg&#10;&gt;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

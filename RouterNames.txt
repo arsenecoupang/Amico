@@ -1,0 +1,10 @@
+LoginScreen - 로그인 화면
+OnboardingScreen - 온보딩 화면
+MainScreen - 메인 화면
+MatchingScreen - 매칭 화면
+ChatScreen - 채팅 화면
+QuizScreen - 퀴즈 화면
+ComplimentScreen - 칭찬 화면
+ProfileEditScreen - 프로필 편집 화면
+SupabaseStatus - Supabase 상태 화면
+EnvSetupGuide - 환경 설정 가이드 화면
