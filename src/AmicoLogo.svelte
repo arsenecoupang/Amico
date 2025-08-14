@@ -1,9 +1,9 @@
-<script lang="ts">
+<script>
 	import { Sparkles } from 'lucide-svelte';
 
-	export let size: 'xs' | 'sm' | 'md' | 'lg' = 'md';
-	export let showIcon: boolean = true;
-	export let className: string = '';
+	export let size = 'md';
+	export let showIcon = true;
+	export let className = '';
 
 	const sizeClasses = {
 		xs: {
@@ -26,21 +26,23 @@
 			icon: 'w-6 h-6',
 			container: 'gap-2'
 		}
-	} as const;
+	};
 
-	function isValidSize(s: any): s is keyof typeof sizeClasses {
+	function isValidSize(s) {
 		return s && typeof s === 'string' && s in sizeClasses;
 	}
 
-	const validSize = isValidSize(size) ? size : 'md';
-	$: styles = sizeClasses[validSize] ?? sizeClasses.md;
+	$: validSize = isValidSize(size) ? size : 'md';
+	$: styles = sizeClasses[validSize];
 </script>
 
 <div class={`flex items-center ${styles.container} ${className}`}>
 	{#if showIcon}
 		<Sparkles class={`${styles.icon} text-[var(--soft-blue)]`} />
 	{/if}
-	<span class={`${styles.text} font-bold bg-gradient-to-r from-[var(--soft-blue)] to-[var(--soft-purple)] bg-clip-text text-transparent`}>
-    Amico
-  </span>
+	<span
+		class={`${styles.text} bg-gradient-to-r from-[var(--soft-blue)] to-[var(--soft-purple)] bg-clip-text font-bold text-transparent`}
+	>
+		Amico
+	</span>
 </div>
