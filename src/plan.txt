@@ -106,8 +106,8 @@ UI 컴포넌트: Button, Card, Input, Tabs, Alert, Avatar 등
 
 
 화면 목록
-LoginScreen: 로그인/회원가입
-OnboardingScreen: 프로필 설정
+LoginScreen: 로그인/회원가입--[o]
+OnboardingScreen: 프로필 설정--[o]
 MainScreen: 메인 대시보드
 MatchingScreen: 친구 매칭
 ChatScreen: 1:1 채팅
